@@ -24,7 +24,7 @@ This project includes configurations for a full working setup using syslog-ng fo
 
 3. make sure logstash-forwarder is installed to ship your logs to logstash
 
-4. cp logstash-forwarder/logstash-forwarder.yml to /etc/ (Make sure you edit the fields to connect to your logstash server.)
+4. `cp logstash-forwarder/logstash-forwarder.yml /etc/` (Make sure you edit the fields to connect to your logstash server.)
 
 5. On your logstash server copy /logstash/*.conf files to your logstash configurations normally located in /etc/logstash/cond.d (Rename them to any order you deem good.) I just kept mine at 10-, 11-, 12-, 13-, etc.
 
